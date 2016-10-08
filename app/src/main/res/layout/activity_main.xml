@@ -10,8 +10,18 @@
     android:paddingTop="@dimen/activity_vertical_margin"
     tools:context="com.hobbythai.android.myrobot.MainActivity">
 
+    <SeekBar
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/seekBar"
+        android:layout_alignParentBottom="true" />
+
     <TextView
+        android:text="0"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="Hello Kullachat" />
+        android:id="@+id/textView"
+        android:textSize="100sp"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="50dp" />
 </RelativeLayout>
